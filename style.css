@@ -229,6 +229,31 @@ h2{
     outline: none;
     border: none;
 }
+/* footer design start  */
+.footer-head{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 120px 150px 120px 150px;
+    gap: 110px;
+    
+}
+.ancor-1 li {
+    list-style: none;
+    padding: 32px;
+}
+.ancor-1 li a{
+    text-decoration: none;
+    color: #6B7280;
+ 
+
+}
+.logo-design{
+   padding: 20px;
+
+   
+}
+
+
 
 .btn{
   color: white;
