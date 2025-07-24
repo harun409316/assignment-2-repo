@@ -1,0 +1,222 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+   display: inline-block;
+   
+}
+ul li a{
+    text-decoration: none;
+    padding: 48px;
+    color: #8987A1;
+   
+}
+.ancor{
+    color: black;
+}
+.banner{
+    display: flex;
+   align-items: flex-end;
+    margin: 120px 150px 120px 150px;
+ 
+}
+.title{
+    font-family: "Noto Serif", serif;
+    color: #E95A08;
+    font-size: 65px;
+    font-weight: bold;
+}
+span{
+    color: black;
+}
+.banner-desc{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    
+}
+.desc{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+}
+.plants-section{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+ .card-desc{
+    text-align: center;
+   
+ }
+  
+.card-title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.price{
+    color: #111111;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.card-menu{
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    text-align: center;
+    
+}
+.card-image{
+    padding: 20px;
+    padding-top:30px ;
+}
+/* flower lover */
+.flower-lover{
+    display: flex;
+    margin: 120px 150px 120px 150px;
+    gap: 60px;
+    
+}
+.flower-container{
+    position: relative;
+    
+}
+.flower-store{
+   object-fit: cover;
+
+}
+.sub-image{
+    position: absolute;
+    top: -7.5rem;
+    right: -6rem;
+    width: 280px;
+    height: 280px;
+    object-fit: contain;
+
+    
+    
+    
+    
+}
+
+.lover{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+}
+.lover-desc{
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+
+}
+
+/* latest title  */
+.latest-container{
+    margin: 120px 150px 120px 150px;
+}
+.latest-title{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.latest{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+    color: #E95A08;
+}
+/* .latest-image{
+    display: flex;
+
+}
+.flower-1{
+    border-radius: 14px;
+   
+}
+#flower{
+    padding-top: 25px;
+}
+.flower-cover{
+    position: relative;
+}
+.flower-cover img{
+    height: auto;
+   
+  
+}
+.flower-text h4{
+    position:absolute;
+    top:30%;
+    left: 10rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+    font-size: 40px;
+}
+.btn-2{
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    border: none;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    
+} */
+/* background im  */
+.img-container{
+    display: flex;
+    gap: 20px;
+}
+   .box{
+    position: relative;
+   width: 400px;
+   height: 350px;
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+   overflow: hidden;
+
+   } 
+   .flowers-1{
+    background-image: url(./image/deal-bloom.png);
+    width: 50%;
+   }
+   .flowers-2{
+    background-image: url(./image/deal-ana.png);
+    width: 50%;
+   }
+   .flowers-3{
+    background-image: url(./image/deal-zabo.png);
+    width: 100%;
+   }
+   .over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100%;
+    z-index: 1;
+   }
+.text{
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    font-size: 18px;
+    z-index: 2;
+}
+.btn{
+  color: white;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  background-color: #E95A08;
+  border: none;
+  padding:26px 50px;
+  width: 270px;
+
+}
