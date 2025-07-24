@@ -139,7 +139,6 @@ span{
    flex-direction: column;
   height: 423px;
  gap: 10px;
-
  
    
 
@@ -151,8 +150,13 @@ span{
     padding: 10px;
     border-radius: 8px;
    
+    justify-content: center;
+    align-items: center;
+   display: flex;
+   flex-direction: column;
+    
+    
    
-    text-align: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
@@ -174,6 +178,10 @@ span{
 height: 390px;
 width: 752px;
 border-radius: 8px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
 
 }
 .flowers-2 h4{
@@ -190,6 +198,38 @@ border-radius: 8px;
 
 
 }
+.cover-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 533px;
+    width: 100%;
+    margin: 0;
+    
+}
+.header-item{
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+}
+#search{
+    width: 644px;
+    padding: 19px;
+    border-right: none;
+    flex: 1;
+    outline: none;
+    border: none;
+}
+
 .btn{
   color: white;
   font-weight: 600;
@@ -200,3 +240,17 @@ border-radius: 8px;
   width: 270px;
 
 }
+.btn-1{
+    color: white;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    background-color: #E95A08;
+    border: none;
+    padding:19px 53px;
+    left: -10px;
+    position: relative;
+    
+    
+  
+  }
+  
