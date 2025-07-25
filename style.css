@@ -72,6 +72,7 @@ span{
 .card-image{
     padding: 20px;
     padding-top:30px ;
+  
 }
 /* flower lover */
 .flower-lover{
@@ -95,11 +96,16 @@ span{
     width: 280px;
     height: 280px;
     object-fit: contain;
+  
+  transition: all .3s linear;
+  transition-duration: 5s;
+   
+    
+    
+}
+.sub-image:hover{
+transform: rotate(360deg);
 
-    
-    
-    
-    
 }
 
 .lover{
@@ -234,7 +240,7 @@ h2{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 120px 150px 120px 150px;
-    gap: 110px;
+    gap: 30px;
     
 }
 .ancor-1 li {
@@ -248,8 +254,8 @@ h2{
 
 }
 .logo-design{
-   padding: 20px;
-
+   padding: 10px;
+   
    
 }
 
@@ -278,4 +284,146 @@ h2{
     
   
   }
+
+
+
+  /* midea query style start  */
   
+  @media screen and (max-width: 576px) {
+
+    .banner {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left:5px;
+       
+    }
+    .banner-head .banne-img{
+        align-items: center;
+        justify-content: center;
+     
+        
+    }
+    .flower-lover{
+       display: inline-block;
+       margin-left: 5px;
+       margin-right: 10px;
+       margin-top: 20px;
+       gap: 10px;
+       margin-bottom: 20px;
+      
+        
+    }
+    .latest-container{
+        margin: 41px 18px 41px 19px;
+        
+    }
+    .flower-store{
+        margin: 41px 18px 41px 19px;
+        width: calc(100% - 37px);
+    }
+
+    .plants-section{
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        padding-left: 5px;
+        
+    }
+    .card-menu{
+        display: grid;
+        grid-template-columns:  repeat(2, 1fr);
+        padding-left: 4px;
+        padding-right: 4px;
+       
+        align-items: center;
+        justify-content: center;
+    }
+    .card-image{
+      padding: 0;
+        padding-top:30px ;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+    .latest-container{
+        margin: 10px;
+    }
+
+    .parents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+      
+    }
+    .flowers-2{
+        height: 390px;
+        width: 367px;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .submit-btn{
+        align-items: center;
+        justify-content: center;
+      text-align: center;
+    }
+
+    #search{
+        width: 30%;
+        padding: 19px;
+        border-right: none;
+        flex: 1;
+        outline: none;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .btn-1{
+        color: white;
+        font-weight: 600;
+        font-family: "Inter", sans-serif;
+        background-color: #E95A08;
+        border: none;
+        padding:20px 23px;
+        left: -10px;
+        position: relative;
+        
+        
+      
+      }
+      .footer-head{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
+     
+    }
+    .ancor-1 li {
+        list-style: none;
+        padding: 32px;
+       
+    }
+.navbar-1 {
+
+visibility: hidden;
+}
+.sub-image{ 
+    visibility: hidden;
+}
+.banne-img{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+width: 100%;
+
+}
+
+  
+  }
