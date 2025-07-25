@@ -290,7 +290,9 @@ h2{
   /* midea query style start  */
   
   @media screen and (max-width: 576px) {
-
+body{
+    overflow-x: hidden;
+}
     .banner {
         width: 100%;
         align-items: center;
@@ -429,6 +431,9 @@ width: 100%;
   }
 
   @media screen and (max-width:776px) {
+    body{
+        overflow-x: hidden;
+    }
     .banner {
         width: 100%;
         align-items: center;
