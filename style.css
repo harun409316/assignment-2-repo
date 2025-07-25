@@ -299,47 +299,51 @@ body{
         justify-content: center;
         display: flex;
         flex-direction: column-reverse;
-        margin-left:5px;
+        margin:0;
        
     }
-    .banner-head .banne-img{
+    .banner-head .banner-img{
         align-items: center;
         justify-content: center;
+        margin: 0;
      
         
     }
     .flower-lover{
-       display: inline-block;
-       margin-left: 5px;
+        display: grid;
+        grid-template-columns:  repeat(1, 1fr);
+       /* margin-left: 5px;
        margin-right: 10px;
        margin-top: 20px;
        gap: 10px;
-       margin-bottom: 20px;
+       margin-bottom: 20px; */
+       margin: 0;
       
         
     }
-    .latest-container{
+    /* .latest-container{
         margin: 41px 18px 41px 19px;
         
-    }
+    } */
     .flower-store{
-        margin: 41px 18px 41px 19px;
-        width: calc(100% - 37px);
+        /* margin: 41px 18px 41px 19px; */
+     width: 100%;
+     margin-top: 20px;
     }
 
     .plants-section{
-        margin-left: 10px;
-        margin-right: 10px;
+        /* margin-left: 10px;
+        margin-right: 10px; */
         text-align: center;
-        padding-left: 5px;
+        /* padding-left: 5px; */
         
     }
     .card-menu{
         display: grid;
         grid-template-columns:  repeat(2, 1fr);
-        padding-left: 4px;
-        padding-right: 4px;
-       
+        /* padding-left: 4px;
+        padding-right: 4px; */
+       margin: 0 auto;
         align-items: center;
         justify-content: center;
     }
@@ -349,6 +353,9 @@ body{
         margin-left: 5px;
         margin-right: 5px;
         
+    }
+    .card-image img{
+        width: 100%;
     }
     .latest-container{
         margin: 10px;
@@ -365,7 +372,7 @@ body{
     }
     .flowers-2{
         height: 390px;
-        width: 367px;
+        width: 100%;
         border-radius: 8px;
         justify-content: center;
         align-items: center;
@@ -389,6 +396,9 @@ body{
         justify-content: center;
         
     }
+    .cover-img img{
+        width: 100%;
+      }
     .btn-1{
         color: white;
         font-weight: 600;
@@ -401,6 +411,9 @@ body{
         
         
       
+      }
+      .btn{
+        width: 100%;
       }
       .footer-head{
         display: grid;
@@ -426,9 +439,9 @@ grid-template-columns: repeat(1, 1fr);
 width: 100%;
 
 }
-
+}
   
-  }
+  
 
   @media screen and (max-width:776px) {
     body{
@@ -440,7 +453,7 @@ width: 100%;
         justify-content: center;
         display: flex;
         flex-direction: column-reverse;
-        margin-left:5px;
+        /* margin-left:5px; */
        
     }
     .banner-head .banne-img{
@@ -453,51 +466,54 @@ width: 100%;
     .banner-head{
         margin-left: 50px;
     }
-    .flower-lover{
-       display: inline-block;
-       margin-left: 50px;
-       margin-right: 10px;
-       margin-top: 20px;
-       gap: 10px;
-       margin-bottom: 20px;
-      
-        
-    }
-    .latest-container{
-        margin: 41px 18px 41px 19px;
-        
-    }
-    .flower-store{
-        margin: 41px 18px 41px 19px;
-        width: calc(100% - 37px);
-    }
 
-    .plants-section{
-        margin-left: 10px;
-        margin-right: 10px;
-        text-align: center;
-        padding-left: 5px;
+    .card-image{
+      padding: 0;
+        padding-top:0px ;
+        margin-left: 0px;
+        margin-right: 0px;
+        
         
     }
     .card-menu{
         display: grid;
         grid-template-columns:  repeat(2, 1fr);
-        padding-left: 4px;
-        padding-right: 4px;
-       
+        /* padding-left: 4px;
+        padding-right: 4px; */
+       gap: 5px;
         align-items: center;
         justify-content: center;
     }
-    .card-image{
-      padding: 0;
-        padding-top:30px ;
-        margin-left: 5px;
-        margin-right: 5px;
-        
-    }
-    .latest-container{
-        margin: 10px;
-    }
+    .flower-lover{
+        display: inline-block;
+        /* margin-left: 50px;
+        margin-right: 10px;
+        margin-top: 20px;
+        gap: 10px;
+        margin-bottom: 20px;
+        */
+         align-items: center;
+         justify-content: center;
+     }
+      .latest-container{
+         /* margin: 41px 18px 41px 19px; */
+         align-items: center;
+         justify-content: center;
+     } 
+     /* .flower-store{
+      margin: 41px 18px 41px 19px;   
+         width: calc(100% - 37px);
+     } */
+ 
+     .plants-section{
+         margin-left: 10px;
+         margin-right: 10px;
+         text-align: center;
+         padding-left: 5px;
+         
+     }
+   
+    
 
     .parents{
         display: flex;
@@ -548,6 +564,9 @@ width: 100%;
         
         
       
+      }
+      .cover-img img{
+        width: 100%;
       }
       .footer-head{
         display: grid;
